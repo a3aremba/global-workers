@@ -1,0 +1,9 @@
+-r requirements.txt
+tox==2.1.1
+pytest==2.7.2
+pytest-cov==1.8.1
+pytest-flake8==0.1
+pytest-xdist==1.12
+mock==1.0.1
+# pure Python implementation so we can run it everywhere
+pg8000==1.10.2

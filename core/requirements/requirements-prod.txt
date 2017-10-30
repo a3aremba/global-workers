@@ -1,0 +1,2 @@
+-r requirements.txt
+psycopg2cffi==2.7.0

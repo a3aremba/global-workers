@@ -26,7 +26,6 @@ class Task(collections.namedtuple('Task', 'id name args kwargs exception')):
     :param kwargs: kwargs that were passed
     :param exception: string representation of exception
     """
-
     __slots__ = ()
 
     def __new__(cls, id, name, args, kwargs, exception):
